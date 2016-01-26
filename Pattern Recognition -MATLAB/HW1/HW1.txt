@@ -1,0 +1,9 @@
+Consider a two-class classification task for 3-dimensional feature space. Assume that the two classes can be modeled by two multivariate normal distributions, \mathcal{N}(\mu_1,\Sigma_1) and \mathcal{N}(\mu_2,\Sigma_2), respectively. Please write a program to do the recognition of any input vector by the Bayes classification rule (Version 2).
+
+\mathcal{N}(\mu,\Sigma)=Normal distribution
+
+Inputs: \mu_1, \Sigma_1 (a symmetric matrix), \mu_2, \Sigma_2 (a symmetric matrix), P(\omega_1) (prior of Class 1), P(\omega_2) (prior of Class 2), and {\bf x}\in R^3 (input vector to be recognized)
+
+Output: the recognized class label (\omega_1 or \omega_2)
+
+Note: You can use the programming language with which you are familiar. However, MATLAB, C, C++, and Java are preferred. Please zip your files (including well-commented codes and a 2-page report on describing your results) into a zip or rar file named with nnnnnnnn_HW1.zip (or nnnnnnnn_HW1.rar) and submitted via the e-learning website of the course.
